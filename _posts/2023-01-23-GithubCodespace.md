@@ -24,7 +24,7 @@ excerpt: "此篇文章將導引您在Github建立Codespace及相關設定。"
 - 當建立一個Github Codespace時，背景會建立一個Linux 由 Github 控管的 Docker container，而VS code也會相對應的自動新增相關開發工具。若有其他Linux版本的需求，可透過其他方式去做客製化。
 
 - 以下為Github Codespace流程圖，若有興趣可至官方文件參考。
-[](https://imgur.com/a/JP7jnno)
+![alt](/assets/images/GithubCodespace/codespaces-diagram.png)
 
 ## Pricing for Github Codespace
 - 個人使用基本上皆為免費，但每個月皆有quota上限，如下表。
@@ -35,12 +35,12 @@ excerpt: "此篇文章將導引您在Github建立Codespace及相關設定。"
 
 
 ## 如何在Repository新增
-- 僅需在Reposiory右上角`右上角`點選Code，再點選`Create Codespace on main`即可新增。
+- 僅需在Reposiory右上角點選`Code`，再點選`Create Codespace on main`即可新增。
 
 ## 如何與本地端IDE或終端機連結Github Codespace
 可參考以下連結。
-- Visual Studio Code: (https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code#prerequisites)
+- [Visual Studio Code x Github Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code#prerequisites)
 
-- JetBrains IDEs: (https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide#prerequisites)
+- [JetBrains IDEs x Github Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide#prerequisites)
 
-- Github CLI: (https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli#using-github-cli)
+- [Github CLI](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-with-github-cli#using-github-cli)
