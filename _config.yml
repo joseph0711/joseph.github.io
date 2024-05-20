@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name: "Joseph Chiang"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile-photo.jpg"
   bio: "Stay hungry, Stay foolish."
-  location: "Yunlin, Taiwan"
+  location: "Chiayi, Taiwan"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -178,7 +178,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: 
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
